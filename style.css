@@ -1,0 +1,98 @@
+body{
+    margin: 0;
+    width: 100%;
+}
+.main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-image: url(Images/main.jpg);
+    width: 100%;
+    height: 90vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.brand h1{
+    color: rgb(63, 127, 236);
+    font-size: 7vmin;
+    font-weight: 700;
+}
+.heading {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.heading h1 {
+    font-weight: 500;
+    font-size: 6vmin;
+    white-space: wrap;
+    width: 600px;
+    text-align: center;
+}
+.heading h4 {
+    color: grey;
+    font-size: 3.5vmin;
+    font-weight: 200;
+}
+.choice {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.choice1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    line-height: 2px;
+    color: grey;
+    font-size: 2vmin;
+}
+.choice1 button {
+    background-color:  rgb(106, 155, 239);
+    padding: 10px 25px 10px 25px;
+    color: white;
+    font-size: 2.2vmin;
+    font-weight: 700;
+    border: none;
+    border-radius: 5px;
+}
+.choice1 i {
+    padding-right: 10px;
+}
+.choice2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    line-height: 2px;
+    color: grey;
+    font-size: 2vmin;
+}
+.choice2 button {
+    background-color:  rgb(106, 155, 239);
+    padding: 10px 25px 10px 25px;
+    color: white;
+    font-size: 2.2vmin;
+    font-weight: 700;
+    border: none;
+    border-radius: 5px;
+}
+.choice2 i {
+    padding-left: 10px;
+}
+
+@media (max-width:750px) {
+    .main {
+        background-position: center;
+        background-attachment: fixed;
+    }
+    .heading h1 {
+        font-weight: 500;
+        font-size: 6vmin;
+        white-space: wrap;
+        width: 300px;
+        text-align: center;
+    }
+}
